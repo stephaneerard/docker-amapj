@@ -1,0 +1,17 @@
+<Context path="/" docBase="/amapj/amapj-war">
+
+    <Parameter name="dbms" value="hi"  />
+
+    <Parameter name="dbms.hi.type" value="hsql_internal"  />
+    <Parameter name="dbms.hi.dir" value="/amapj/amapj-db/"  />
+    <Parameter name="dbms.hi.port" value="8005"  />
+
+
+    <Parameter name="master.dbms" value="hi"  />
+    <Parameter name="master.name" value="master"  />
+
+    <Parameter name="logDir" value="/amapj/logs/"  />
+
+    <Manager pathname="" />
+
+</Context>
